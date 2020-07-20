@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:notifapp/main.dart';
-import 'package:notifapp/ui_page/home/HomePage.dart';
+import 'file:///D:/FlutterProject/notif_app/lib/ui_page/home/home/HomePage.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

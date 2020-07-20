@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notifapp/ui_page/home/HomePage.dart';
+import 'file:///D:/FlutterProject/notif_app/lib/ui_page/home/home/HomePage.dart';
 
 void main() {
   runApp(MaterialApp(

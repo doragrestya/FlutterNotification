@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'file:///D:/FlutterProject/notif_app/lib/ui_page/home/itemListVertical.dart';
 import 'package:notifapp/network/NetworkProvider.dart';
-import 'package:notifapp/ui_page/home/add_page/AddPage.dart';
+import 'package:notifapp/ui_page/add_page/AddPage.dart';
+import 'package:notifapp/ui_page/home/home/itemListVertical.dart';
 
 class HomePage extends StatefulWidget {
   @override
