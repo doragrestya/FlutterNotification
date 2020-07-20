@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
           actions: <Widget>[
             FlatButton(
               onPressed: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
+                Navigator.pop(context);
               },
               child: Text('Ok'),
             )

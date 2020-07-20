@@ -19,7 +19,6 @@ class NetworkProvider extends BaseEndPoint {
     // TODO: implement getNews
     final response = await http
         .post(ConstantFile().baseUrl + "getNews", body: {'iduser': id});
-
     ModelNews listData = modelNewsFromJson(response.body);
 
     return listData.article;
