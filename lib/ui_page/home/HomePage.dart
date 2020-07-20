@@ -4,7 +4,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:notifapp/network/NetworkProvider.dart';
 import 'package:notifapp/ui_page/add_page/AddPage.dart';
-import 'package:notifapp/ui_page/home/home/itemListVertical.dart';
+import 'package:notifapp/ui_page/home/itemListVertical.dart';
 
 class HomePage extends StatefulWidget {
   @override
